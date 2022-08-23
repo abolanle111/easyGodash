@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="mobile-nav">
+            <div class="mobile">
+                <h2>easyGo</h2>
+                <div onclick="toggleMenu()" class="hamburger">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-search">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+        <nav class="desktop-nav">
+            <div class="brand-name">
+                <h2>easyGo</h2>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-bell"></i>
+                <div class="image">
+                    <img src="./Assets/account_image.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="side-menu" id="sideMenu">
+            <ul>
+                <li><i class="fa-solid fa-palette"></i>&nbsp; <span>Dashboard</span></li>
+                <li><i class="fa-solid fa-laptop"></i>&nbsp; <span>Trips</span></li>
+                <li><i class="fa-solid fa-money-check"></i>&nbsp; <span>Financials</span></li>
+                <li><i class="fa-solid fa-envelope"></i>&nbsp; <span>Notifications</span></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="icon-1 blue">
+                        <i class="fa-solid fa-comment "></i>
+                    </div>
+                    <div class="box">
+                        <h3>4</h3>
+                        <p>Published Trips</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-1 red">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+                    <div class="box">
+                        <h3>1</h3>
+                        <p>Trip Booking</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-1 purple">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                    <div class="box">
+                        <h3>GHS 0</h3>
+                        <p>Withdrawable Balance</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-1 light">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <div class="box">
+                        <h3>GHS 840.00</h3>
+                        <p>Total Revenue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="next-trip">
+                    <div class="trip">
+                        <div class="flex">
+                            <h5>Next Trip</h5>
+                            <h5>1 Seat Booked</h5>
+                        </div>
+                        <h1>08 Sep 2022</h1>
+                    </div>
+                    <div>
+                        <h3>Experience Accra</h3>
+                    </div>
+                </div>
+                <div class="performance">
+                    <div class="title">
+                        <h2>Trips Performance(COMING SOON)</h2>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p>12%<i class="fa-solid fa-arrow-turn-up"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p>15%<i class="fa-solid fa-arrow-turn-up"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p>18%<i class="fa-solid fa-arrow-turn-up"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p><span>17%</span><i class="fa-solid fa-arrow-turn-down"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p><span>10%</span><i class="fa-solid fa-arrow-turn-down"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p>14%<i class="fa-solid fa-arrow-turn-up"></i></p>
+                    </div>
+                    <div class="net">
+                        <h6>Google chrome</h6>
+                        <p>5%<i class="fa-solid fa-arrow-turn-up"></i></p>
+                    </div>
+                </div>
+                <div class="date">
+                    <div class="month">
+                        <ul>
+                            <li class="prev">&#10094;</li>
+                            <li class="next">&#10095;</li>
+                            <li>July<br><span style="font-size:18px">2015</span></li>
+                        </ul>
+                    </div>
+
+                    <ul class="weekdays">
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                        <li>Su</li>
+                    </ul>
+                    <ul class="days">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li><span class="active">10</span></li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="recent-bookings">
+                    <div class="title">
+                        <h2 class="recent">Recent Bookings</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Trip Date Name</th>
+                            <th>User Name</th>
+                            <th>Number of seats</th>
+
+                        </tr>
+                        <tr>
+                            <td>Experience Accra</td>
+                            <td>08 Sept 2022</td>
+                            <td>Kweku Akuaye</td>
+                            <td>1</td>
+
+                        </tr>
+                    </table>
+                </div>
+                <div class="trip-locations">
+                    <div class="title">
+                        <h2 class="recent">Trip Locations</h2>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>Copyrights &copy; Design Adapted FRom 2015 Modern.All Rights Reserved | Design by Mide</p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        var sideMenu = document.querySelector(".side-menu")
+
+        function toggleMenu() {
+            sideMenu.classList.toggle("show-menu");
+        }
+    </script>
+
+</body>
+
+</html>
